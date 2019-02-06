@@ -2,7 +2,7 @@ class Largest {
 
     public static void main(String[] args) {
 
-        int n1 = 1, n2 = 1, n3 = 4;
+        int n1 = 3, n2 = 4, n3 = 5;
 
         if( n1 >= n2 && n1 >= n3)
             System.out.println(n1 + " ");
