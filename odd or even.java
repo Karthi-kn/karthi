@@ -1,18 +1,19 @@
-class GFG 
-{ 
-    // Returns true if n is even, else odd 
-    public static boolean isEven(int n) 
-    { 
-        return (n % 2 == 0); 
-    } 
+ class oddeven
+ {
+
+    public static void main(String[] args)
+    {
+
+       int number = 3;
+        System.out.println("Input:");
+        
+        if (number < 0)
+            System.out.print(number + " \nOutput:\nInvalid");
+
       
-    // Driver code 
-    public static void main(String[] args) 
-    { 
-        int n = 101; 
-        if(isEven(n) == true) 
-            System.out.print("Even"); 
-        else
-            System.out.print("Odd"); 
-    } 
-} 
+        else if (number % 2==0 )  
+            System.out.print(number + "\nOutput:\nEven");
+        else 
+            System.out.print(number + "\nOutput:\nOdd");
+}
+}
