@@ -9,7 +9,7 @@ public class AlphabetOrNot
         Scanner scan = new Scanner(System.in);
 		
         //Input character
-        System.out.print("");
+        System.out.print(" ");
         ch = scan.next().charAt(0);
 		
         //condition for checking characters.
